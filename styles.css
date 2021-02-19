@@ -1,0 +1,227 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1  {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+  font-size: 3.3rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+#nav_section {
+  background-color: #769fcd;
+  height: 4.5rem;
+}
+
+.container-fluid{
+  padding: 0 15% 7%;
+  margin: 0 auto;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+
+/* screen under 1150px moves to toggle representation*/
+@media screen and (min-width: 1150px){
+  .center-nav {
+    margin-top: 2%;
+  }
+  .container-fluid {
+    padding: 0 15% 7%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+/* About me */
+#about_me{
+  background-color: #b9d7ea;
+  color: #fff;
+  margin-top: 0;
+
+}
+
+.picAndText{
+  padding-top: 3%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+.profile_image{
+  width: 30%;
+  border-radius: 50%;
+}
+
+
+/* Carousel in About Me */
+
+#info-carousel {
+  text-align: center;
+  color: #fff;
+}
+
+.info-headline {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 15% 15%;
+}
+
+/* Education Section */
+
+#education{
+  padding-top: 2%;
+}
+
+.education_heading{
+  color: #769fcd;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.center_cards{
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Employment Section */
+
+#employment_and_hobbies{
+  margin-top: 2%;
+  padding-bottom: 4%;
+  padding-top: 2%;
+  text-align: center;
+  background-color:  #b9d7ea;
+  color: #fff;
+}
+
+.em-headline{
+  padding-bottom: 2%;
+}
+
+.em-and-ho-card{
+  margin: 0 auto;
+  color: #769fcd;
+}
+
+/* Simon game Section */
+#simon_game{
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.pic-section{
+  display: flex;
+  justify-content: center;
+}
+
+.simon-header{
+  color: #769fcd;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.simon-header-sec{
+  padding-bottom: 2%;
+}
+
+.play-btn{
+  width: 40%;
+}
+
+.instructions-btn{
+  display: flex;
+  justify-content: center;
+}
+
+/* Contact Form Section */
+
+#contact{
+  background-color: #b9d7ea;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.contact-headline{
+  color: #769fcd;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.form{
+  background-color: #fff;
+  border: 1px solid #769fcd;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2% 0;
+  width: 50%;
+}
+
+.form-control{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-btn{
+  margin-top: 1%;
+}
+
+/* error msg for email */
+
+.error {
+  width  : 100%;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 10px 10px;
+}
+
+.footer-text {
+  font-family: "Montserrat";
+  color: #8f8f8f;
+}
